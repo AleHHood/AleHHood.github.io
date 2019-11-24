@@ -1,0 +1,359 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        .promo_header
+            font-size: 50px
+    .reasons
+        .reasons_block
+            align-items: start
+            .reasons_descr
+                width: 300px
+    .mobile
+        &_item
+            width: 300px
+
+    footer
+        min-height: 146px
+        padding: 14px 0 31px 0
+        position: relative
+        .lang
+        .social_block
+            left: 23px
+            bottom: 23px
+        .twitter
+            left: 64px
+        .ln
+            left: 105px
+        .insta
+            left: 146px
+
+
+        .download
+            position: absolute
+            right: 23px
+            bottom: 25px
+
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        .subheader_logo
+            img
+                width: 100%
+        .subheader_official
+            font-size: 11px
+        .subheader_phone
+            font-size: 20px
+        .subheader_btn
+            width: 100%
+            height: 40px
+            margin-top: 21px
+    .promo
+        .promo_header
+            font-size: 40px
+        .promo_subheader
+            font-size: 30px
+    .reasons
+        .reasons_block
+            flex-direction: column
+            align-items: center
+            .reasons_round
+                margin-right: 0
+            .reasons_descr
+                width: 300px
+                margin-top: 20px
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        left: -100%
+        top: 0
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        height: 100vh
+        width: 50%
+        background-color: #000000
+        opacity: 0.8
+        padding: 20px 15px
+        transition: 0.6s all
+    .menu_active
+        left: 0
+        &_item
+            border-right: none
+            padding-right: 0
+            width: 200px
+            margin-top: 20px
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 4px
+    .hamburger_active
+        margin-top: 5px
+        span:first-child
+            margin-bottom: -1.5px
+            transition: 0.6s
+            transform: rotate(-45deg)
+        span:nth-child(2)
+            display: none
+        span:nth-child(3)
+            margin-bottom: 0
+            transition: 0.6s
+            transform: rotate(45deg)
+    .xs-hidden
+        display: none
+    .subheader
+        .xs-visible
+            display: block   
+        .subheader_phone
+            display: block
+            margin-top: 11px
+            margin-bottom: 9px
+            font-size: 18px
+            font-style: normal
+            text-align: center
+            color: #ffffff
+        .subheader_btn
+            display: block
+            margin: 0 auto
+            width: 180px
+            height: 40px
+    .promo
+        .promo_header
+            font-size: 30px
+        .promo_subheader
+            font-size: 25px
+
+    .mobile
+        &_item
+            width: 340px            
+
+    .prius
+        &_white
+            &_img
+                margin-top: -34%
+
+    footer
+        min-height: 200px
+
+
+@media (max-width: 575px)
+    .container
+        padding-left: 14px
+        padding-right: 14px
+
+    header
+        height: 30px
+    nav
+        height: 30px
+    .subheader
+        height: 60px
+        top: 30px
+        .subheader_official
+            display: none
+        .subheader_logo
+            margin-top: 17px
+        .subheader_phone
+            margin-top: 11px
+            font-size: 12px
+        .subheader_btn
+            margin-top: 9px
+            margin-bottom: 9px
+            width: 110px
+            height: 22px
+            font-size: 10px
+
+    .promo
+        padding: 113px 0px 35px 0px
+        min-height: 400px
+        .promo_header
+            font-size: 30px
+            font-weight: 900
+            line-height: normal
+        .promo_subheader
+            margin-top: 35px
+            font-size: 20px
+            font-weight: bold
+        .promo_descr
+            display: none
+        .promo_btn
+            margin-top: 70px
+            width: 210px
+            height: 50px
+            font-size: 16px
+
+    .label
+        width: 112px
+        height: 24px
+        font-size: 11px
+    .title
+        margin-top: 15px
+        font-size: 15px
+        font-stretch: normal
+        font-style: normal
+        letter-spacing: normal
+        font-weight: bold
+
+    .reasons
+        padding: 22px 0 50px 0
+        .reasons_block
+            .reasons_round
+                width: 100px
+                height: 100px
+            .reasons_descr
+                margin-top: 37px
+                width: 290px
+                font-size: 15px
+                font-weight: 300
+                font-stretch: normal
+                font-style: normal
+                line-height: 1.4
+                letter-spacing: normal
+                text-align: justify
+
+
+    .mobile
+        padding: 22px 0 43px 0
+        .subtitle
+            margin-top: 11px
+            font-size: 14px
+            font-weight: normal
+            font-stretch: normal
+            font-style: normal
+            line-height: 1.5
+        .row
+            margin-top: 0
+        &_item
+            margin-top: 30px
+            width: 290px
+            height: 254px
+            &_subtitle
+                font-size: 18px
+                font-weight: normal
+                font-stretch: normal
+                font-style: normal
+                line-height: 1.72
+                display: block
+                margin-left: 45px
+                margin-right: 40px
+    .prius_black_title
+        display: none
+    .prius_black_subtitle
+        display: none
+    .prius
+        &_black
+            padding: 25px 0 30px 0
+            min-height: 84px
+            background-color: #000000
+        &_white
+            margin-top: -1px
+            padding-bottom: 30px
+            background-color: #000000
+            height: 306px
+            min-height: 306px
+            &_img
+                max-width: 370px
+                margin-top: 0px
+        .prius_white_subtitle
+            color: #ffffff
+            margin-top: 20px
+
+    .require
+        padding: 25px 0 25px 0           
+        &_block
+            margin-top: 20px
+        &_title 
+            font-size: 16px
+        &_list
+            padding-left: 32px
+            li 
+                font-size: 14px
+                line-height: normal
+                margin-top: 5px
+        &_descr 
+            margin-top: 10px
+
+    .world
+        padding: 25px 0 30px 0
+        min-height: 360px
+        height: 360px
+        .subtitle
+            font-size: 14px
+            margin-top: 10px
+        a
+            margin-top: 216px
+
+    footer
+        padding: 25px 0 190px 0
+        .blue_box
+            width: 253px
+        .footer_title
+            font-size: 14px
+            font-weight: 300
+            margin: 23px 0px 13px 0px
+        .footer_title:first-child
+            margin-right: 16px
+        .footer_title:nth-child(2)
+            margin-right: 12px
+        .footer_subtitle
+            margin: 0px 0px 12px 0px
+        .footer_subtitle:nth-child(1)
+            margin: 0px 81px 0 23px
+        .footer_subtitle:nth-child(2)
+            margin-right: 0px
+        .footer_subtitle:nth-child(3)
+            margin: 0 55px 0 23px
+        .footer_subtitle:nth-child(4)
+            margin: 0 48px 0 0px
+        .footer_subtitle:nth-child(5)
+            margin: 0 0px 0 0px
+        .lang
+            font-size: 11px
+            margin-top: 12px
+            margin-bottom: 116px
+        
+        .social_block
+            left: 25.9375%
+            right: 64.0625%
+            bottom: 248px
+        .twitter
+            left: 38.75%
+        .ln
+            left: 51.5625%
+        .insta
+            left: 64.345%
+
+        .download
+            position: absolute
+            right: 8.75%
+            left: 10%
+            bottom: 204px
+            width: 81.25%
+            img
+                width: 100%
+
+
+
+
+        
+
+    
